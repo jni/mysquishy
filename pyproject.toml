@@ -1,6 +1,6 @@
 [project]
 name = "mysquishy"
-version = "0.1.0"
+version = "0.2.0"
 description = "Recompress zarr chunks in-place"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -36,12 +36,12 @@ dependencies = [
 dev = ["check-manifest"]
 test = ["coverage"]
 
-# [project.urls]  # Optional
+[project.urls]  # Optional
 # "Homepage" = "https://github.com/pypa/sampleproject"
-# "Bug Reports" = "https://github.com/pypa/sampleproject/issues"
+"Bug Reports" = "https://github.com/jni/mysquishy/issues"
 # "Funding" = "https://donate.pypi.org"
 # "Say Thanks!" = "http://saythanks.io/to/example"
-# "Source" = "https://github.com/pypa/sampleproject/"
+"Source" = "https://github.com/jni/mysquishy"
 
 [project.scripts]
 mysquishy = "mysquishy:main"
