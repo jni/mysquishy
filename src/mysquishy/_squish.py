@@ -1,0 +1,2 @@
+def squish(path):
+    pass
