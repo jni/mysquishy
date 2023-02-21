@@ -23,7 +23,8 @@ classifiers = [
   "Programming Language :: Python :: 3 :: Only",
 ]
 dependencies = [
-  "peppercorn",
+  "numpy",
+  "numcodecs",
   "zarr",
   "dask[array,distributed]",
 ]
