@@ -26,7 +26,10 @@ dependencies = [
   "numpy",
   "numcodecs",
   "zarr",
+  "ome-zarr",
   "dask[array,distributed]",
+  "tqdm",
+  "toolz",
 ]
 
 [project.optional-dependencies]
